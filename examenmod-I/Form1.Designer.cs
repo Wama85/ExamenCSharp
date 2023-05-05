@@ -28,80 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btntriangulo = new System.Windows.Forms.Button();
-            this.btnrectangulo = new System.Windows.Forms.Button();
-            this.paralelogramo = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            btntriangulo = new Button();
+            btnrectangulo = new Button();
+            paralelogramo = new Button();
+            label1 = new Label();
+            button1 = new Button();
+            SuspendLayout();
             // 
             // btntriangulo
             // 
-            this.btntriangulo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btntriangulo.Image = global::examenmod_I.Properties.Resources.triangulo1;
-            this.btntriangulo.Location = new System.Drawing.Point(76, 133);
-            this.btntriangulo.Name = "btntriangulo";
-            this.btntriangulo.Size = new System.Drawing.Size(174, 112);
-            this.btntriangulo.TabIndex = 0;
-            this.btntriangulo.Text = "TRIÁNGULO";
-            this.btntriangulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btntriangulo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.btntriangulo.UseVisualStyleBackColor = true;
-            this.btntriangulo.Click += new System.EventHandler(this.btntriangulo_Click);
+            btntriangulo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btntriangulo.Image = Properties.Resources.triangulo1;
+            btntriangulo.Location = new Point(76, 133);
+            btntriangulo.Name = "btntriangulo";
+            btntriangulo.Size = new Size(174, 112);
+            btntriangulo.TabIndex = 0;
+            btntriangulo.Text = "TRIÁNGULO";
+            btntriangulo.TextAlign = ContentAlignment.TopCenter;
+            btntriangulo.TextImageRelation = TextImageRelation.TextAboveImage;
+            btntriangulo.UseVisualStyleBackColor = true;
+            btntriangulo.Click += btntriangulo_Click;
             // 
             // btnrectangulo
             // 
-            this.btnrectangulo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnrectangulo.Image = global::examenmod_I.Properties.Resources.rectangulo1;
-            this.btnrectangulo.Location = new System.Drawing.Point(292, 133);
-            this.btnrectangulo.Name = "btnrectangulo";
-            this.btnrectangulo.Size = new System.Drawing.Size(174, 112);
-            this.btnrectangulo.TabIndex = 1;
-            this.btnrectangulo.Text = "RECTÁNGULO";
-            this.btnrectangulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnrectangulo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.btnrectangulo.UseVisualStyleBackColor = true;
-            this.btnrectangulo.Click += new System.EventHandler(this.btnrectangulo_Click);
+            btnrectangulo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnrectangulo.Image = Properties.Resources.rectangulo1;
+            btnrectangulo.Location = new Point(292, 133);
+            btnrectangulo.Name = "btnrectangulo";
+            btnrectangulo.Size = new Size(174, 112);
+            btnrectangulo.TabIndex = 1;
+            btnrectangulo.Text = "RECTÁNGULO";
+            btnrectangulo.TextAlign = ContentAlignment.TopCenter;
+            btnrectangulo.TextImageRelation = TextImageRelation.TextAboveImage;
+            btnrectangulo.UseVisualStyleBackColor = true;
+            btnrectangulo.Click += btnrectangulo_Click;
             // 
             // paralelogramo
             // 
-            this.paralelogramo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.paralelogramo.Image = global::examenmod_I.Properties.Resources.paralelogramo1;
-            this.paralelogramo.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.paralelogramo.Location = new System.Drawing.Point(492, 133);
-            this.paralelogramo.Name = "paralelogramo";
-            this.paralelogramo.Size = new System.Drawing.Size(174, 112);
-            this.paralelogramo.TabIndex = 2;
-            this.paralelogramo.Text = "PARALELOGRAMO";
-            this.paralelogramo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.paralelogramo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.paralelogramo.UseVisualStyleBackColor = true;
-            this.paralelogramo.Click += new System.EventHandler(this.paralelogramo_Click);
+            paralelogramo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            paralelogramo.Image = Properties.Resources.paralelogramo1;
+            paralelogramo.ImageAlign = ContentAlignment.BottomCenter;
+            paralelogramo.Location = new Point(492, 133);
+            paralelogramo.Name = "paralelogramo";
+            paralelogramo.Size = new Size(174, 112);
+            paralelogramo.TabIndex = 2;
+            paralelogramo.Text = "PARALELOGRAMO";
+            paralelogramo.TextAlign = ContentAlignment.TopCenter;
+            paralelogramo.TextImageRelation = TextImageRelation.TextAboveImage;
+            paralelogramo.UseVisualStyleBackColor = true;
+            paralelogramo.Click += paralelogramo_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(247, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(238, 28);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "FIGURAS GEOMÉTRICAS";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.Maroon;
+            label1.Location = new Point(247, 49);
+            label1.Name = "label1";
+            label1.Size = new Size(238, 28);
+            label1.TabIndex = 3;
+            label1.Text = "FIGURAS GEOMÉTRICAS";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(283, 292);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 4;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 383);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.paralelogramo);
-            this.Controls.Add(this.btnrectangulo);
-            this.Controls.Add(this.btntriangulo);
-            this.Name = "inicio";
-            this.Text = "INICIO";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(780, 383);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Controls.Add(paralelogramo);
+            Controls.Add(btnrectangulo);
+            Controls.Add(btntriangulo);
+            Name = "inicio";
+            Text = "INICIO";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -110,5 +120,6 @@
         private Button btnrectangulo;
         private Button paralelogramo;
         private Label label1;
+        private Button button1;
     }
 }

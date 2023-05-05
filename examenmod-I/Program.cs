@@ -12,6 +12,7 @@ namespace examenmod_I
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new inicio());
+            //cambios
            
         }
        

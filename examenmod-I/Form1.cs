@@ -9,7 +9,7 @@ namespace examenmod_I
 
         private void btntriangulo_Click(object sender, EventArgs e)
         {
-            triangulo ventanatriangulo= new triangulo();
+            triangulo ventanatriangulo = new triangulo();
             ventanatriangulo.Show();
             this.Hide();
         }
